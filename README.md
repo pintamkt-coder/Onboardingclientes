@@ -72,7 +72,7 @@ Hoja `NC`, con las columnas del formulario (A-L) más las columnas de control de
 | S | Fecha_Enviado |
 | T | Log_Error |
 
-**Link de solo lectura:** `[https://docs.google.com/spreadsheets/d/1iICa0Oi4CGmxPSqJIAoqtXQ9R0bU1TeryK-f9wvE6vA/edit?gid=1797733805#gid=1797733805]`
+**Link de solo lectura:** https://docs.google.com/spreadsheets/d/1iICa0Oi4CGmxPSqJIAoqtXQ9R0bU1TeryK-f9wvE6vA/edit?gid=1797733805#gid=1797733805
 
 ## Contenido del repositorio
 
@@ -94,7 +94,7 @@ Ver [`TESTS.md`](./TESTS.md) para el detalle de los 5+ tests realizados, incluye
 
 ## Video demo
 
-`[https://drive.google.com/file/d/1-xfWRr7HvD6pJ7ZjnnjxwLioatCgchYR/view?usp=drive_link]`
+https://drive.google.com/file/d/1-xfWRr7HvD6pJ7ZjnnjxwLioatCgchYR/view?usp=drive_link
 
 ## Equipo
 
