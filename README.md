@@ -80,10 +80,15 @@ Hoja `NC`, con las columnas del formulario (A-L) más las columnas de control de
 ├── pdf/
 │   └── Diagrama_Arquitectura_Onboarding_Pinta_FINAL.pdf
 ├── json/
-│   ├── escenario_A_onboarding.json
-│   └── escenario_B_aprobacion.json
+│   ├── Onboarding clientes-escenarioA.blueprint.json
+│   └── Aprobación de contratos onboarding escenario B.blueprint.json
 ├── screenshots/
-│   └── (capturas de evidencia del flujo funcionando)
+│   ├── Escenario A.png
+│   ├── Escenario B.png
+│   ├── escenarios A y B.png
+│   ├── Mail de aprobacion.png
+│   ├── mail al cliente.png
+│   └── Sheet cambio de estados y test.png
 ├── TESTS.md
 └── README.md
 ```
