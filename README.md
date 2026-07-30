@@ -2,6 +2,19 @@
 
 Entrega final del curso de Automatización IA. Sistema que automatiza de punta a punta el proceso de **onboarding de nuevos clientes de Pinta**, desde que se cierra un presupuesto hasta que el cliente recibe el contrato y el presupuesto firmados por mail, con un punto de validación humana en el medio.
 
+## Índice de entregables
+
+| Entregable | Link |
+|---|---|
+| 📄 Diagrama de arquitectura (PDF) | [`/pdf/Diagrama_Arquitectura_Onboarding_Pinta_FINAL.pdf`](./pdf/Diagrama_Arquitectura_Onboarding_Pinta_FINAL.pdf) |
+| 🔧 Blueprint Escenario A (JSON) | [`/json/Onboarding clientes-escenarioA.blueprint.json`](<./json/Onboarding clientes-escenarioA.blueprint.json>) |
+| 🔧 Blueprint Escenario B (JSON) | [`/json/Aprobación de contratos onboarding escenario B.blueprint.json`](<./json/Aprobación de contratos onboarding escenario B.blueprint.json>) |
+| 💰 Matriz de costos y decisión de modelos | [`COSTOS.md`](./COSTOS.md) |
+| 🧪 Tests de estrés | [`TESTS.md`](./TESTS.md) |
+| 🖼️ Capturas de evidencia | [`/screenshots`](./screenshots) |
+| 📊 Base de datos (Google Sheet, solo lectura) | Ver sección "Base de datos" más abajo |
+| 🎥 Video demo | Ver sección "Video demo" más abajo |
+
 ## Caso de uso
 
 Cuando Pinta cierra un presupuesto nuevo con un cliente, se le envía un Google Form para que cargue sus datos (razón social, CUIT, domicilio, email, servicios contratados, etc.). A partir de esa carga, el sistema:
