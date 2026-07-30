@@ -14,6 +14,8 @@ Hoy, buena parte de los proyectos de Pinta arrancan **de palabra**: se acuerda e
 
 ## Tarea de IA en el flujo
 
+**Matriz aplicada a la única tarea con LLM del flujo: redacción del contrato (1 llamada por cliente).**
+
 Este ecosistema tiene **una única tarea que requiere un modelo de lenguaje**: la redacción del contrato a partir de los datos del cliente (módulo "Anthropic Claude — Create a Prompt" en Escenario A). No hay clasificación, triage, ni ningún otro paso que use IA.
 
 Estimación de uso por ejecución (un contrato = una llamada):
@@ -47,6 +49,16 @@ GPT-4o-mini es hasta **20-30 veces más barato** por token que Sonnet. Aun así,
 3. **Sonnet ofrece la mejor relación calidad/precio** para generación de texto largo y estructurado (contratos), superando a Haiku en coherencia sin llegar al costo de Opus, que sería sobredimensionado para esta tarea.
 
 **Conclusión:** para tareas de bajo volumen y alto impacto por error, el costo por token deja de ser la variable relevante — lo que importa es la confiabilidad del output. Sonnet es el punto óptimo en esta curva para este caso de uso específico.
+
+### Ahorro operativo si se migrara a un modelo más barato
+
+Sobre ~15 contratos/mes:
+
+- **Con Sonnet (elegido):** ~$0,43/mes en total.
+- **Si migráramos a Haiku:** ~$0,14/mes → ahorro de ~$0,29/mes (~67% menos).
+- **Si migráramos a GPT-4o-mini:** ~$0,02/mes → ahorro de ~$0,41/mes (~95% menos).
+
+El ahorro porcentual es grande, pero en términos absolutos es de centavos de dólar al mes. Frente a eso, el costo de un contrato mal redactado (relectura, corrección, demora en el onboarding, o peor, un error que llegue al cliente) es varios órdenes de magnitud mayor que cualquiera de esos ahorros. Por eso se prioriza calidad sobre el ahorro de $/token en esta tarea puntual.
 
 ## Batch API — por qué no se usa en este flujo
 
